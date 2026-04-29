@@ -2,7 +2,8 @@ import { Module } from '@nestjs/common';
 import * as Joi from 'joi';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { OrdersModule } from './order/orders.module';
+import { DriversModule } from './drivers/drivers.module';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
@@ -38,6 +39,7 @@ import { OrdersModule } from './order/orders.module';
       },
     }),
     OrdersModule,
+    DriversModule,
   ],
   controllers: [],
   providers: [],

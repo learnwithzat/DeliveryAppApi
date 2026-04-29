@@ -12,7 +12,7 @@ import {
 } from 'typeorm';
 import { RootArea } from './root-area.entity';
 import { OrderItem } from './order-item.entity';
-import { Driver } from './driver.entity';
+import { Driver } from '../drivers/driver.entity';
 import { OrderStatus } from './order-status.enum';
 
 @Entity()
