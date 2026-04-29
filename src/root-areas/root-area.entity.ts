@@ -7,7 +7,7 @@ import {
   OneToMany,
   CreateDateColumn,
 } from 'typeorm';
-import { Order } from './order.entity';
+import { Order } from '../orders/order.entity';
 
 @Entity()
 export class RootArea {

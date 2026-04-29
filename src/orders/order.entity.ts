@@ -10,7 +10,7 @@ import {
   UpdateDateColumn,
   JoinColumn,
 } from 'typeorm';
-import { RootArea } from './root-area.entity';
+import { RootArea } from '../root-areas/root-area.entity';
 import { OrderItem } from './order-item.entity';
 import { Driver } from '../drivers/driver.entity';
 import { OrderStatus } from './order-status.enum';

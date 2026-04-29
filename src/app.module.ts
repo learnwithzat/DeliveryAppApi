@@ -4,6 +4,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DriversModule } from './drivers/drivers.module';
 import { OrdersModule } from './orders/orders.module';
+import { RootAreasModule } from './root-areas/root-areas.module';
 
 @Module({
   imports: [
@@ -40,6 +41,7 @@ import { OrdersModule } from './orders/orders.module';
     }),
     OrdersModule,
     DriversModule,
+    RootAreasModule,
   ],
   controllers: [],
   providers: [],

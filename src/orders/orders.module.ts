@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Order } from './order.entity';
-import { RootArea } from './root-area.entity';
+import { RootArea } from '../root-areas/root-area.entity';
 import { OrderItem } from './order-item.entity';
 import { Driver } from '../drivers/driver.entity';
 import { OrdersService } from './orders.service';

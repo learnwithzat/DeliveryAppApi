@@ -1,7 +1,7 @@
 import { config } from 'dotenv';
 import { DataSource } from 'typeorm';
 import { Order } from './orders/order.entity';
-import { RootArea } from './orders/root-area.entity';
+import { RootArea } from './root-areas/root-area.entity';
 import { OrderItem } from './orders/order-item.entity';
 import { Driver } from './drivers/driver.entity';
 // Import other entities as they are created

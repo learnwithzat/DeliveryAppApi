@@ -5,7 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { OrderStatus } from './order-status.enum';
 import { Order } from './order.entity';
-import { RootArea } from './root-area.entity';
+import { RootArea } from '../root-areas/root-area.entity';
 import { CreateOrderDto } from './create-order.dto';
 
 @Injectable()
